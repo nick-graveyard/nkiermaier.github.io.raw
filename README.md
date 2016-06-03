@@ -12,7 +12,7 @@ This combined with a `.nojekyll` file in the blog repo allows hosting without bu
 
 The advantage of this custom jekyll configuration:  
 
-1. All of my categories are dynamically generated and paginated.
+1. All of my categories are dynamically generated, have their own home page, and are paginated.
       * thanks to the sweet plugin from here: https://github.com/midnightSuyama/jekyll-paginate-category
 2. Archives are dynamically generated.
 3. Pages in their own folder: `_pages`.
@@ -20,6 +20,8 @@ The advantage of this custom jekyll configuration:
 5. HTML5 boilerplate, Jquery, Bootstrap included. 
 
 
+Note: Really hoping Octopress 3.0 will have category homepages and pagination included.
+  * https://github.com/imathis/octopress
 
 
 
