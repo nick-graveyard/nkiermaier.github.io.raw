@@ -1,9 +1,12 @@
-This is the code for my custom jekyll pages blog. 
+### Jekyll blog code
 
-I use custom plugins which are not supported by Github.
+This is the custom code for my jekyll pages blog:  
+  * https://nkiermaier.github.io
 
-So, I maintain my code here, rebuild my blog locally on changes, and update my blog with the
-rebuilt `_site` folder after I make changes.   
+I use a plugin for category pagination which isnt supported by Github.
+
+So, I maintain my code here, rebuild my blog locally on changes, and update my blog repo with the
+newly updated `_site` folder.   
 
 This combined with a `.nojekyll` file in the blog repo allows hosting without build in github jekyll 
 
