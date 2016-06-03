@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ site.title | escape }}</title>
+    {% include meta_tags.html %}
+    {% include link_tags.html %}
+  </head>
+  <body>
+
+
+    {% include ie_warning.html %}
+
+    {% include navbar.html %}
+    <div id="content-wrapper">
+      <div class="container-fluid">
+        {{ content }}
+      </div><!-- end container-fluid -->
+    </div>
+
+    <footer></footer>
+
+    {% include script_tags.html %}
+
+  </body>
+</html>

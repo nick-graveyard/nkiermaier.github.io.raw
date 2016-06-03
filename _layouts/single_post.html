@@ -1,0 +1,37 @@
+---
+layout: main
+---
+
+<div class="row">
+          <article>
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="title">
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                  </h1>
+                </div>
+              </div><!--/.row-->
+
+              <div class="row">
+                <div class="col-md-12">
+                    <p class="date">{{ page.date | date: "%b %d, %Y" }} by {{ page.author }}</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class = "col-md-2">
+                  <div class = "post_img">
+                    <a href ="{{ site.img_location }}/{{page.image}}">
+                      <img src = "{{ site.img_location }}/{{page.image}}" class="img-responsive" style =" border-radius: 6px;">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-md-10">
+                  <div class="article-content">
+                    {{ page.content }}
+                  </div>
+                </div>
+              </div><!--/.row-->
+          </article>
+</div><!--/.row-->
