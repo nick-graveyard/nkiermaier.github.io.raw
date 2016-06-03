@@ -16,6 +16,7 @@ layout: main
               <div class="row">
                 <div class="col-md-12">
                     <p class="date">{{ post.date | date: "%b %d, %Y" }} by {{ post.author }}</p>
+                    <p class="category">Category: {{ post.categories[0] | capitalize }}</p>
                 </div>
               </div>
 
@@ -40,6 +41,8 @@ layout: main
 
           </article>
         </div><!--/.row-->
+
+        <hr>
       {% endfor %}
 
 

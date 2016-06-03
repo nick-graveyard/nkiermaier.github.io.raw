@@ -4,5 +4,4 @@ title: About
 permalink: /aboot
 ---
 
-About
-
+Aboot!
