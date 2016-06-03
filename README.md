@@ -3,12 +3,12 @@
 This is the custom code for my jekyll pages blog:  
   * https://nkiermaier.github.io
 
-I use a plugin for category pagination which isnt supported by Github.
+I use a plugin for category indexes and pagination which isnt supported natively by Github.
 
 So, I maintain my code here, rebuild my blog locally on changes, and update my blog repo with the
 newly updated `_site` folder.   
 
-This combined with a `.nojekyll` file in the blog repo allows hosting without build in github jekyll 
+This combined with a `.nojekyll` file in the blog repo allows hosting without build in github jekyll. 
 
 The advantage of this custom jekyll configuration:  
 
