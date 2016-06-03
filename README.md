@@ -20,7 +20,7 @@ The advantage of this custom jekyll configuration:
 5. HTML5 boilerplate, Jquery, Bootstrap included. 
 
 
-Note: Really hoping Octopress 3.0 will have category homepages and pagination included.
+Note: Really hoping Octopress 3.0 will have category homepages and pagination included, b/c it looks awesome an would solve all my problems.
   * https://github.com/imathis/octopress
 
 
